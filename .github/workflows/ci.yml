@@ -19,7 +19,7 @@ jobs:
           java-version: 17
 
       - name: Maven validate
-        run: ./mvnw -B validate
+        run: ./mvn -B validate
 
   unit_tests:
     runs-on: ubuntu-latest
