@@ -19,7 +19,7 @@ jobs:
           java-version: 17
 
       - name: Maven validate
-        run: ./mvn -B validate
+        run: mvn -B validate
 
   unit_tests:
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
           java-version: 17
 
       - name: Run unit tests
-        run: ./mvn -B test
+        run: mvn -B test
 
   build_jar:
     runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
           java-version: 17
 
       - name: Build jar
-        run: ./mvn -B package -DskipTests
+        run: mvn -B package -DskipTests
 
       - name: Upload jar artifact
         uses: actions/upload-artifact@v4
@@ -80,7 +80,7 @@ jobs:
           java-version: 17
 
       - name: Run integration tests (profile)
-        run: ./mvn -B verify -Pintegration-tests
+        run: mvn -B verify -Pintegration-tests
 
   coverage:
     runs-on: ubuntu-latest
@@ -94,7 +94,7 @@ jobs:
           java-version: 17
 
       - name: Run tests with JaCoCo
-        run: ./mvn -B test jacoco:report
+        run: mvn -B test jacoco:report
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
