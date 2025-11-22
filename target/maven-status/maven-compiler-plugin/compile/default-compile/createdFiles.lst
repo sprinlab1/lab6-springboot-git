@@ -1,0 +1,11 @@
+com/example/lab5blog/repo/CommentRepository.class
+com/example/lab5blog/controller/BlogController.class
+com/example/lab5blog/model/Post.class
+com/example/lab5blog/repo/ProfileRepository.class
+com/example/lab5blog/model/User.class
+com/example/lab5blog/repo/PostRepository.class
+com/example/lab5blog/dto/PostForm.class
+com/example/lab5blog/Lab5BlogDockerApplication.class
+com/example/lab5blog/repo/UserRepository.class
+com/example/lab5blog/model/Profile.class
+com/example/lab5blog/model/Comment.class

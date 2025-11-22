@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог (ЛР5 Docker)</title>
+</head>
+<body>
+<h1>Блог: список постів</h1>
+
+<h2>Додати новий пост</h2>
+<form th:action="@{/posts}" method="post" th:object="${postForm}">
+    <label for="title">Заголовок:</label><br>
+    <input type="text" id="title" name="title" th:field="*{title}" required><br><br>
+
+    <label for="content">Текст:</label><br>
+    <textarea id="content" name="content" th:field="*{content}" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Зберегти</button>
+</form>
+
+<hr/>
+
+<h2>Існуючі пости</h2>
+
+<div th:if="${#lists.isEmpty(posts)}">
+    <p>Пости відсутні. Додайте перший пост через форму вище.</p>
+</div>
+
+<div th:each="p : ${posts}">
+    <h3 th:text="${p.title}">Заголовок</h3>
+    <p th:text="${p.content}">Текст</p>
+    <p><b>Створено:</b> <span th:text="${p.createdAt}">дата</span></p>
+    <hr/>
+</div>
+
+</body>
+</html>

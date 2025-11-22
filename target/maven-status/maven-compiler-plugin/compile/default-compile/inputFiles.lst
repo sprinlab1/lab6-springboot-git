@@ -1,0 +1,11 @@
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/Lab5BlogDockerApplication.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/controller/BlogController.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/dto/PostForm.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/model/Comment.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/model/Post.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/model/Profile.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/model/User.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/repo/CommentRepository.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/repo/PostRepository.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/repo/ProfileRepository.java
+/Users/antontihoplav/PycharmProjects/proj_1/sprin/lab5-blog-docker-project/src/main/java/com/example/lab5blog/repo/UserRepository.java
